@@ -1,0 +1,17 @@
+[project]
+name = "proposal-pipeline-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "lxml>=6.1.1",
+    "pdfplumber>=0.11.10",
+    "pytz>=2026.2",
+    "requests>=2.34.2",
+    "scrapelib>=2.4.1",
+    "scraper-legistar",
+]
+
+[tool.uv.sources]
+scraper-legistar = { git = "https://github.com/opencivicdata/python-legistar-scraper" }
