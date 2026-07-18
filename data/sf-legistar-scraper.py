@@ -40,8 +40,8 @@ class SFBillScraper(LegistarBillScraper):
 
 
 WINDOWS = {
-    "2022": (date(2022, 4, 1), date(2022, 6, 30), date(2022, 6, 20), date(2022, 6, 30)),
-    "2026": (date(2026, 4, 1), date(2026, 6, 30), date(2026, 6, 22), date(2026, 6, 30)),
+    "2022": (date(2021, 1, 1), date(2022, 6, 30), date(2022, 6, 1), date(2022, 6, 30)),
+    "2026": (date(2025, 1, 1), date(2026, 6, 30), date(2026, 6, 1), date(2026, 6, 30)),
 }
 
 ADOPTED_STATUSES = {"adopted", "passed", "approved"}
